@@ -802,11 +802,12 @@
 		},
 		{
 			"name": "Send to 3ds Max",
-			"details": "https://bitbucket.org/cb109/sublime3dsmax",
+			"details": "https://github.com/cb109/sublime3dsmax",
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"platforms" : ["windows"],
+					"tags": true
 				}
 			]
 		},
@@ -1184,6 +1185,17 @@
 			]
 		},
 		{
+			"name": "SidebarSeparator",
+			"details": "https://github.com/ekazyam/SidebarSeparator",
+			"labels": ["sidebar", "utilities"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Silex Snippets",
 			"details": "https://github.com/franciscosantamaria/sublime-silex",
 			"labels": ["snippets"],
@@ -1329,6 +1341,17 @@
 				{
 					"sublime_text": ">=3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "SimpleSession",
+			"details": "https://github.com/woodruffw/SimpleSession",
+			"labels": ["workspace", "save", "session", "manager", "window"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -1724,6 +1747,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "SnippetX",
+			"details": "https://github.com/ColinRyan/SnippetX",
+			"labels": ["text manipulation", "snippets"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -2175,7 +2209,7 @@
 			"labels": ["snippets"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "*",
 					"branch": "master"
 				}
 			]
@@ -2788,17 +2822,6 @@
 			]
 		},
 		{
-			"name": "sublime WinSCP",
-			"details": "https://github.com/thecotne/sublime-WinSCP",
-			"releases": [
-				{
-					"platforms": "windows",
-					"sublime_text": ">=3000",
-					"tags": true
-				}
-			]
-		},
-		{
 			"details": "https://github.com/rjcoelho/sublime-clearcase",
 			"releases": [
 				{
@@ -3050,7 +3073,7 @@
 					"branch": "st3"
 				}
 			]
-		}, 
+		},
 		{
 			"name": "SublimeLinter_CatGutterTheme",
 			"details": "https://github.com/m10l/SublimeLinter-CatGutterTheme",
@@ -3268,6 +3291,17 @@
 			]
 		},
 		{
+			"name": "sublimious",
+			"details": "https://github.com/dvcrn/sublimious",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true,
+					"platforms": ["osx", "linux"]
+				}
+			]
+		},
+		{
 			"details": "https://github.com/cyrilf/Sublimipsum",
 			"releases": [
 				{
@@ -3351,6 +3385,16 @@
 				{
 					"sublime_text": ">=3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "SuiteCommerce-Advanced",
+			"details": "https://github.com/venda/SCA-SublimeText/",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -3508,6 +3552,30 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Suricate",
+			"details": "https://github.com/nsubiron/SublimeSuricate",
+			"labels": [
+				"commands",
+				"diff",
+				"duckduckgo",
+				"file navigation",
+				"git",
+				"google",
+				"search",
+				"surround scm",
+				"svn",
+				"tooltips",
+				"utilities",
+				"vcs"
+			],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -3824,6 +3892,17 @@
 			]
 		},
 		{
+			"name": "Syntax Highlighting for PostCSS",
+			"details": "https://github.com/hudochenkov/Syntax-highlighting-for-PostCSS",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Syntax Highlighting for Sass",
 			"details": "https://github.com/P233/Syntax-highlighting-for-Sass",
 			"labels": ["language syntax"],
@@ -3928,10 +4007,11 @@
 		{
 			"name": "SystemVerilog",
 			"details": "https://bitbucket.org/Clams/sublimesystemverilog",
+			"labels": ["language syntax", "snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "default"
+					"tags": true
 				}
 			]
 		}

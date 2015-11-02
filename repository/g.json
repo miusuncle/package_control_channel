@@ -229,6 +229,17 @@
 			]
 		},
 		{
+			"name": "Gherkin Auto-Complete Plus",
+			"details": "https://github.com/austincrft/sublime-gherkin-auto-complete-plus",
+			"labels": ["auto-complete", "language syntax", "testing", "gherkin", "cucumber"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/hypernovagama/Gherkin-highlight-sublimetext",
 			"labels": ["language syntax"],
 			"releases": [
@@ -465,6 +476,17 @@
 			]
 		},
 		{
+			"name": "GithubEmoji",
+			"details": "https://github.com/akatopo/GithubEmoji",
+			"labels": ["emoji", "github", "markdown"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "GitHubinator",
 			"details": "https://github.com/ehamiter/GitHubinator",
 			"releases": [
@@ -663,6 +685,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "gmESSI-gmsh Tools",
+			"details": "https://github.com/SumeetSinha/gmESSI-SublimePlugin",
+			"previous_names": ["gmESSI-gmsh tools"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},

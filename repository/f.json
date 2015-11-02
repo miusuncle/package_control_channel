@@ -44,6 +44,17 @@
 			]
 		},
 		{
+			"name": "Facebook Material Theme",
+			"details": "https://github.com/ridewn/material-theme",
+			"labels": ["theme", "color scheme", "material", "facebook"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "FactoryGirl",
 			"details": "https://github.com/travisr/Sublime-FactoryGirl-Snippets",
 			"labels": ["snippets"],
@@ -174,6 +185,16 @@
 			]
 		},
 		{
+			"name": "Fate",
+			"details": "https://github.com/Forty-Niner/fate-sublime",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/facelessuser/FavoriteFiles",
 			"releases": [
 				{
@@ -255,6 +276,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "ferm Syntax",
+			"details": "https://github.com/ScOut3R/ferm.tmLanguage",
+			"labels": ["language syntax", "ferm"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -466,6 +498,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "FileZilla",
+			"details": "https://github.com/thecotne/sublime-filezilla",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -843,6 +885,16 @@
 			]
 		},
 		{
+			"name": "fluent-logger",
+			"details": "https://github.com/airtoxin/fluent-logger-sublimetext",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Fluentd",
 			"details": "https://github.com/adamchainz/fluentd.tmLanguage",
 			"labels": ["language syntax"],
@@ -1120,6 +1172,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3080",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "FSP Syntax",
+			"details": "https://github.com/toboid/sublime-fsp-syntax",
+			"labels": ["syntax", "fsp", "ltsa"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]

@@ -793,8 +793,30 @@
 			]
 		},
 		{
+			"name": "APICloudLoader",
+			"details": "https://github.com/APICloud-com/Sublime-APICloud-Loader",
+			"labels": ["android", "apicloud"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "APICloudPackage",
+			"details": "https://github.com/APICloud-com/Sublime-APICloud-Package",
+			"labels": ["android", "apicloud"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "APICloudSnippets",
-			"details": "https://github.com/taxusyew/apicloud-sublime-snippet",
+			"details": "https://github.com/APICloud-com/Sublime-APICloud-Snippet",
 			"labels": ["javascript", "snippets"],
 			"releases": [
 				{
@@ -1102,7 +1124,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -1135,6 +1157,17 @@
 				{
 					"sublime_text": ">=3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "AsciiConverter",
+			"details": "https://github.com/penginryo/AsciiConverterPlugin",
+			"labels": ["ASCII", "binary", "converter", "decimal", "hexadecimal"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -1320,6 +1353,16 @@
 			]
 		},
 		{
+			"name": "Auto Fold",
+			"details": "https://github.com/fermads/sublime-autofold",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Auto Refresh",
 			"details": "https://github.com/Waterflames/AutoRefresh",
 			"releases": [
@@ -1466,7 +1509,11 @@
 			"releases": [
 				{
 					"sublime_text": "<3000",
-					"branch": "master"
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3000",
+					"tags": "st3-"
 				}
 			]
 		},

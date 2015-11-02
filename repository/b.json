@@ -19,7 +19,7 @@
 			"labels": ["language syntax", "javascript"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -107,7 +107,7 @@
 					"tags": true
 				}
 			]
-		},		
+		},
 		{
 			"name": "BART",
 			"details": "https://github.com/ganemone/SublimeBart",
@@ -205,6 +205,15 @@
 		{
 			"name": "Beanstalk Tools",
 			"details": "https://github.com/temochka/sublime-text-2-beanstalk",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"details": "https://github.com/ketan/BeautifyLatex",
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -350,6 +359,18 @@
 			]
 		},
 		{
+			"name": "Better Bookmarks",
+			"details": "https://github.com/dusk125/sublime-betterbookmarks",
+			"labels": ["bookmark", "save", "layer"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"platforms": ["*"],
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Better Build System",
 			"details": "https://bitbucket.org/ArtDesire/better-build-system",
 			"labels": ["build system"],
@@ -416,17 +437,6 @@
 				{
 					"sublime_text": ">=3000",
 					"branch": "master"
-				}
-			]
-		},
-		{
-			"name": "Better TypeScript",
-			"details": "https://github.com/lavrton/sublime-better-typescript",
-			"labels": ["language syntax", "snippets", "linting", "watch", "typescript"],
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"tags": true
 				}
 			]
 		},
@@ -735,6 +745,17 @@
 			]
 		},
 		{
+			"name": "Bootstrap 4 Snippets",
+			"details": "https://github.com/mdegoo/sublime-bootstrap4",
+			"labels": ["snippets","Bootstrap","Bootstrap4"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://bitbucket.org/Tumbo/bootstrap-jade",
 			"releases": [
 				{
@@ -896,6 +917,16 @@
 				{
 					"sublime_text": "<3000",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Browser Sync",
+			"details": "https://github.com/iamdjones/sublime-text-browser-sync",
+			"releases":[
+				{
+					"sublime_text":">=3000",
+					"tags":true
 				}
 			]
 		},

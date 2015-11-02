@@ -45,6 +45,17 @@
 			]
 		},
 		{
+			"name": "Dark Fusion Color Scheme",
+			"details": "https://github.com/paradox41/dark-fusion-syntax",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Dark Neon Color Scheme",
 			"details": "https://github.com/RainyDayMedia/DarkNeon",
 			"labels": ["color scheme"],
@@ -280,6 +291,17 @@
 			]
 		},
 		{
+			"name": "Delphi Syntax Highlighting",
+			"details": "https://bitbucket.org/JeisonJHA/sublime-delphi-language",
+			"labels": ["theme", "language syntax", "color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Demain Color Scheme",
 			"details": "https://github.com/appleton/demain",
 			"labels": ["color scheme"],
@@ -316,6 +338,17 @@
 			"name": "Deselect",
 			"details": "https://github.com/glutanimate/sublime-deselect",
 			"labels": ["text selection"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Desert Color Scheme",
+			"details": "https://github.com/watergear/sublime-desert-color-scheme",
+			"labels": ["color scheme"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -439,9 +472,10 @@
 			]
 		},
 		{
-			"name": "Dimmed Color Scheme",
-			"details": "https://github.com/uonick/dimmed",
-			"labels": ["color scheme", "dimmed", "base16"],
+			"name": "Dilmes Ipsum",
+			"details": "https://github.com/thiagoh/DilmesIpsum",
+			"author": "Thiago Andrade",
+			"labels": ["text", "snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -450,12 +484,12 @@
 			]
 		},
 		{
-			"name": "Dimmed UI",
-			"details": "https://github.com/uonick/dimmed-ui",
-			"labels": ["theme", "dimmed ui"],
+			"name": "Dimmed Color Scheme",
+			"details": "https://github.com/uonick/dimmed",
+			"labels": ["color scheme", "dimmed", "base16"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -761,6 +795,17 @@
 			]
 		},
 		{
+			"name": "Dota Reborn Package",
+			"details": "https://github.com/XavierCHN/Dota-Reborn-Package",
+			"labels": ["auto-complete", "snippets", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Dotfiles Syntax Highlighting",
 			"details": "https://github.com/mattbanks/dotfiles-syntax-highlighting-st2",
 			"labels": ["language syntax"],
@@ -801,6 +846,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Download Source",
+			"details": "https://github.com/socsieng/sublime-download-source",
+			"labels": ["download", "source"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -991,7 +1047,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},

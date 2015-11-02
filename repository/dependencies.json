@@ -31,6 +31,51 @@
 			]
 		},
 		{
+			"name": "coverage",
+			"load_order": "15",
+			"description": "coverage.py - http://coverage.readthedocs.org/en/latest/",
+			"author": "wbond",
+			"issues": "https://github.com/codexns/sublime-coverage/issues",
+			"releases": [
+				{
+					"base": "https://github.com/codexns/sublime-coverage",
+					"tags": true,
+					"sublime_text": "*",
+					"platforms": ["*"]
+				}
+			]
+		},
+		{
+			"name": "ctypes",
+			"load_order": "01",
+			"description": "Python _ctypes module",
+			"author": "wbond",
+			"issues": "https://github.com/codexns/sublime-ctypes/issues",
+			"releases": [
+				{
+					"base": "https://github.com/codexns/sublime-ctypes",
+					"tags": true,
+					"sublime_text": "<3000",
+					"platforms": ["linux"]
+				}
+			]
+		},
+		{
+			"name": "fileio",
+			"load_order": "01",
+			"description": "Python _fileio module",
+			"author": "wbond",
+			"issues": "https://github.com/codexns/sublime-fileio/issues",
+			"releases": [
+				{
+					"base": "https://github.com/codexns/sublime-fileio",
+					"tags": true,
+					"sublime_text": "<3000",
+					"platforms": ["linux"]
+				}
+			]
+		},
+		{
 			"name": "jinja2",
 			"load_order": "51",
 			"description": "Python Jinja2 module",
@@ -45,19 +90,19 @@
 			]
 		},
 		{
-				"name": "lxml",
-				"load_order": "10",
-				"description": "lxml",
-				"author": "eerohele",
-				"issues": "https://github.com/eerohele/sublime-lxml/issues",
-				"releases": [
-						{
-								"base": "https://github.com/eerohele/sublime-lxml",
-								"tags": true,
-								"sublime_text": ">=3000",
-								"platforms": ["osx-x64", "linux-x64"]
-						}
-				]
+			"name": "lxml",
+			"load_order": "10",
+			"description": "lxml",
+			"author": "eerohele",
+			"issues": "https://github.com/eerohele/sublime-lxml/issues",
+			"releases": [
+					{
+							"base": "https://github.com/eerohele/sublime-lxml",
+							"tags": true,
+							"sublime_text": ">=3000",
+							"platforms": ["osx-x64", "linux-x64"]
+					}
+			]
 		},
 		{
 			"name": "markupsafe",
@@ -70,6 +115,48 @@
 					"base": "https://bitbucket.org/teddy_beer_maniac/sublime-text-dependency-markupsafe",
 					"tags": true,
 					"sublime_text": "*"
+				}
+			]
+		},
+		{
+			"name": "multiprocessing",
+			"load_order": "01",
+			"description": "Python _multiprocessing module",
+			"author": "wbond",
+			"issues": "https://github.com/codexns/sublime-multiprocessing/issues",
+			"releases": [
+				{
+					"base": "https://github.com/codexns/sublime-multiprocessing",
+					"tags": true,
+					"sublime_text": "<3000",
+					"platforms": ["windows"]
+				},
+				{
+					"base": "https://github.com/codexns/sublime-multiprocessing",
+					"tags": true,
+					"sublime_text": ">=3000",
+					"platforms": ["osx"]
+				},
+				{
+					"base": "https://github.com/codexns/sublime-multiprocessing",
+					"tags": true,
+					"sublime_text": "*",
+					"platforms": ["linux"]
+				}
+			]
+		},
+		{
+			"name": "newterm",
+			"load_order": "20",
+			"description": "Open a terminal to a specific folder and optionally set environment variables",
+			"author": "wbond",
+			"issues": "https://github.com/codexns/newterm/issues",
+			"releases": [
+				{
+					"base": "https://github.com/codexns/newterm",
+					"tags": true,
+					"sublime_text": "*",
+					"platforms": ["*"]
 				}
 			]
 		},
@@ -98,6 +185,21 @@
 					"base": "https://github.com/packagecontrol/ordereddict",
 					"tags": true,
 					"sublime_text": "<3000"
+				}
+			]
+		},
+		{
+			"name": "package_events",
+			"load_order": "20",
+			"description": "Allows Sublime Text packages to emit and listen for events",
+			"author": "wbond",
+			"issues": "https://github.com/codexns/package_events/issues",
+			"releases": [
+				{
+					"base": "https://github.com/codexns/package_events",
+					"tags": true,
+					"sublime_text": "*",
+					"platforms": ["*"]
 				}
 			]
 		},
@@ -212,6 +314,42 @@
 					"sublime_text": "*",
 					"base": "https://github.com/codexns/sublime-select-windows",
 					"tags": true
+				}
+			]
+		},
+		{
+			"name": "shellenv",
+			"load_order": "10",
+			"description": "Access a user's environmental variables as defined in their shell",
+			"author": "wbond",
+			"issues": "https://github.com/codexns/shellenv/issues",
+			"releases": [
+				{
+					"base": "https://github.com/codexns/shellenv",
+					"tags": true,
+					"sublime_text": "*",
+					"platforms": ["*"]
+				}
+			]
+		},
+		{
+			"name": "sqlite3",
+			"load_order": "01",
+			"description": "Python _sqlite3 module",
+			"author": "wbond",
+			"issues": "https://github.com/codexns/sublime-sqlite3/issues",
+			"releases": [
+				{
+					"base": "https://github.com/codexns/sublime-sqlite3",
+					"tags": true,
+					"sublime_text": "*",
+					"platforms": ["windows", "linux"]
+				},
+				{
+					"base": "https://github.com/codexns/sublime-sqlite3",
+					"tags": true,
+					"sublime_text": ">=3000",
+					"platforms": ["osx"]
 				}
 			]
 		},
